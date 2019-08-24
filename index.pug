@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+html(lang="es")
+head
+	meta(charset="UTF-8")
+	meta(name="viewport", content="width=device-width, initial-scale=1.0")
+	meta(http-equiv="X-UA-Compatible", content="ie=edge")
+	title Proyecto web
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+body
+	.container
+		nav.navbar.navbar-expand-lg.navbar-light.bg-light
+			.logo
+				img(src="https://imgplaceholder.com/400x80", alt="Logo").logo-img
+			button.navbar-toggler(type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation")
+				span.navbar-toggler-icon
+			.collapse.navbar-collapse.justify-content-end#navbarNavDropdown
+				ul.navbar-nav.font-weight-bold
+					li.nav-item.active: a.nav-link(href="index.html") Menu item 1
+					li.nav-item: a.nav-link(href="#") Menu item 2
+					li.nav-item: a.nav-link(href="#") Menu item 3
+					li.nav-item: a.nav-link(href="#") Menu item 4
+					li.nav-item: a.nav-link(href="#") Menu item 5
+		main.row.mt-5.mb-5.pb-5
+			aside.col-sm-3.mb-4
+				ul.list-group
+					li.list-group-item List item 1
+					li.list-group-item List item 2
+					li.list-group-item List item 3
+					li.list-group-item List item 4
+					li.list-group-item List item 5
+					li.list-group-item List item 6
+					li.list-group-item List item 7
+					li.list-group-item List item 8
+					li.list-group-item List item 9
+			section.col-sm-6.mb-3
+				#carouselExampleIndicators.carousel.slide(data-ride="carousel")
+					ol.carousel-indicators
+						li(data-target="#carouselExampleIndicators", data-slide-to="0").active
+						li(data-target="#carouselExampleIndicators", data-slide-to="1")
+						li(data-target="#carouselExampleIndicators", data-slide-to="2")
+					.carousel-inner
+						.carousel-item.carousel.active
+							img(src="https://imgplaceholder.com/540x540/AFAFAF", alt="Image 1").d-block.w-100.carousel-img
+						.carousel-item.carousel
+							img(src="https://imgplaceholder.com/540x540/dddddd", alt="Image 2").d-block.w-100.carousel-img
+						.carousel-item.carousel
+							img(src="https://imgplaceholder.com/540x540/888888", alt="Image 3").d-block.w-100.carousel-img
+						a(href="#carouselExampleIndicators", role="button", data-slide="prev").carousel-control-prev
+							span.carousel-control-prev-icon(aria-hidden="true")
+							span.sr-only Previous
+						a(href="#carouselExampleIndicators", role="button", data-slide="next").carousel-control-next
+							span.carousel-control-next-icon(aria-hidden="true")
+							span.sr-only Next
+			aside.col-sm-3.mb-3
+				.card
+					.card-img-content
+						img(src="https://imgplaceholder.com/253x253", alt="Image").card-img-top.img-fluid.card-img
+					.card-body
+						h5.card-title Title
+						p.card-text Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, facere.
+						a(href="#").btn.btn-primary.btn-dark Ver más
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	
